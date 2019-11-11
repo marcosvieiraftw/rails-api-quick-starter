@@ -1,0 +1,13 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.env.sample": "dotenv"
+  },
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "docker-linter.rubocop.enable": true,
+  "docker-linter.rubocop.container": "quick_starter_api",
+  "docker-linter.rubocop.machine": ""
+}
