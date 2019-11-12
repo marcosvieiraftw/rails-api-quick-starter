@@ -6,11 +6,11 @@ Hi fellows this project has the intuit to share solutions for the most common ne
 - API Only.
 - Authentication through Json Web Token | [Knock](https://github.com/nsarno/knock)
 - Authorization (ACL) pre-configured and ready to go | [Pundit](https://github.com/varvet/pundit)
-- Virtualized with Docker and Docker-compose in separeted containers for database (Postgres) and application.
+- Virtualized with Docker and Docker-compose in separated containers for database (Postgres) and application.
 - All JSON responses serialized and ready to go |  [Netflix Fast Json API](https://github.com/Netflix/fast_jsonapi)
 - Along with serialization, there's the metadata object to work with server-side pagination, boosting your application performance | [Pagy](https://github.com/ddnexus/pagy)
 - Soft deletion configured for sensitive entities | [Soft Deletion](https://github.com/grosser/soft_deletion)
-- Automated test suit:
+- Automated test suite:
 
 ##  TO BE CONTINUED - UNDER CONSTRUCTION
 
@@ -18,4 +18,10 @@ Hi fellows this project has the intuit to share solutions for the most common ne
 ## Installation
 
 
-Dont forget to generate your own master.key
+ - Generate your own master.key
+ - run `$ docker-compose up`
+ - You are good to go!
+
+## Contributing
+
+Please check this repo's CONTRIBUTING.md file for guidelines on how to contribute. Your pull request is welcome!
