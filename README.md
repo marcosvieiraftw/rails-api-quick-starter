@@ -31,7 +31,7 @@ Hi fellows this project has the intuit to share solutions for the most common ne
 
 ## Getting Started
 - Run application with `$ docker-compose up`
-(*After the first *docker-compose up --build* it's not necessary to run again with **--build**)
+(*After the first *docker-compose up --build* it's not necessary to run again with **--build** *)
 - Login with User from seed by sending a POST to `localhost:3000/api/v1/login` with JSON body: 
 ``` JSON
 {
