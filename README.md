@@ -18,6 +18,12 @@ Hi fellows this project has the intuit to share solutions for the most common ne
 - Ruby style guide with Rubocop using [Shopify](https://shopify.github.io/ruby-style-guide/rubocop.yml) rules.
 - Automated test suite: Rspec, Factory bot, shoulda-matchers, faker, simplecov and database_cleaner. There're examples of Request *[Why to use Request specs instead of obsolete Controllers spec](http://rspec.info/blog/2016/07/rspec-3-5-has-been-released/)* and Models tests along with Factories for User, Rspec shared examples, helpers to sanitize JSON responses and to create authentication valid headers.
 
+## Soon (Not available yet)
+- Reset, forgot and change password services integrated with AWS Simple Email Service.
+- Active Storage for files and images integrated with AWS S3 Bucket.
+- Facebook and Google social login.
+- Bitbucket pipeline configuration to run Continuous Integration and Continuous Delivery. 
+
 ## Prerequisites
 - [Docker](https://docs.docker.com/install/)
 - [Docker-compose](https://docs.docker.com/compose/install/)
@@ -31,7 +37,7 @@ Hi fellows this project has the intuit to share solutions for the most common ne
 
 ## Getting Started
 - Run application with `$ docker-compose up`
-(*After the first *docker-compose up --build* it's not necessary to run again with **--build** *)
+(After the first *docker-compose up --build* it's not necessary to run again with **--build**)
 - Login with User from seed by sending a POST to `localhost:3000/api/v1/login` with JSON body: 
 ``` JSON
 {
