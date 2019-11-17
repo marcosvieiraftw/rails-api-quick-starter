@@ -30,14 +30,15 @@ Hi fellows this project has the intuit to share solutions for the most common ne
 
 ## Installation
 - Clone the repository and navigate to the folder.
+- Create empty `.env` file on project root.
 - Run `$ docker-compose up --build`, docker will download the images and create the containers, it might take a while. Before finish, it will run start.sh file which will configure database (Create, migrate and seeds).
-- If you have Rails binary locally open another instance of terminal and run `$ rails credentials:edit`.
-- If you don't you can execute `$ docker exec -it quick_starter_api bash` and generate the master.key with `# rails credentials:edit` from inside the container. It will create the config/master.key which is required to work with JWT auth.
+- If you have Rails binary locally open another instance of terminal and run `$ EDITOR="vi --wait" rails credentials:edit`.
+- If you don't you can execute `$ docker exec -it quick_starter_api bash` and generate the master.key with `# EDITOR="vi --wait" rails credentials:edit` from inside the container. It will create the config/master.key which is required to work with JWT auth.
 - The server will be up on 3000 port, you can access now by `localhost:3000` 
 
 ## Getting Started
 - Run application with `$ docker-compose up`
-(After the first *docker-compose up --build* it's not necessary to run again with **--build**)
+(After the first *docker-compose up --build* it's not necessary to run with **--build** again)
 - Login with User from seed by sending a POST to `localhost:3000/api/v1/login` with JSON body: 
 ``` JSON
 {
