@@ -121,7 +121,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    puma (4.3.0)
+    puma (4.3.1)
       nio4r (~> 2.0)
     pundit (2.1.0)
       activesupport (>= 3.0.0)
@@ -235,7 +235,7 @@ DEPENDENCIES
   pagy (~> 3.6.0)
   pg (>= 0.18, < 2.0)
   pry
-  puma (~> 4.1)
+  puma (~> 4.3)
   pundit (~> 2.1.0)
   rack-cors
   rails (~> 6.0.1)
